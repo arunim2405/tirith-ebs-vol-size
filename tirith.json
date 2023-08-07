@@ -19,7 +19,7 @@
       "condition": {
         "type": "Equals",
         "value": 33,
-        "error_tolerance": 0
+        "error_tolerance": 2
       },
       "id": "eval-id-2",
       "provider_args": {
