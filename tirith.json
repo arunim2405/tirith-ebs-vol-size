@@ -27,25 +27,11 @@
         "terraform_resource_attribute": "ebs_block_device.*.volume_size",
         "terraform_resource_type": "aws_instance"
       }
-    },
-    {
-      "description": "",
-      "condition": {
-        "type": "Equals",
-        "value": "",
-        "error_tolerance": 0
-      },
-      "id": "eval-id-3233",
-      "provider_args": {
-        "operation_type": "",
-        "terraform_resource_attribute": "",
-        "terraform_resource_type": ""
-      }
     }
   ],
   "meta": {
     "required_provider": "stackguardian/terraform_plan",
     "version": "v1"
   },
-  "eval_expression": "eval-id-23 && eval-id-3233"
+  "eval_expression": "eval-id-23 && eval-id-2"
 }
